@@ -1,0 +1,78 @@
+body, button, div, form, input {
+    margin: 10px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;   
+}
+
+h1, h2 {
+    background-color: #48aabd;
+    color: aliceblue;
+    padding: 20px;
+    word-spacing: 3px;  
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 4px 4px black;
+    letter-spacing: 2.5px;
+}
+
+h2 {
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
+}
+
+form {
+    margin-right: 30px;
+    margin-bottom: 0px;   
+}
+
+#arts-input {
+    background-color: aliceblue;
+    border-color:#48aabd;
+}
+#add-arts {
+    margin-top: -20px; 
+}
+.playPauseButtons {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.gif {
+    background-color: #48aabd;
+	transform-origin: center top;
+    transition: .3s  ease-in-out;
+    margin: 0 auto;
+}
+
+.gif:hover {
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;  
+    border: 2px inset #48aabd;
+    /*object-fit: cover;*/
+    padding: 20px 20px;
+    background: black;
+        transform: scale(2.5);
+        overflow: hidden;
+}
+
+.gifInfo{
+    margin-top: 15px;
+    color:#48aabd;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.item {   
+    max-width: 510px;
+    display: inline-grid;
+    padding: 10px;
+}
+   
+   
+

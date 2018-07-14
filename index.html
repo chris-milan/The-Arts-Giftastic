@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>The Arts | Giftastic</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+    
+<body>
+        <div class="container">
+            <h1>The Arts</h1>
+            <div id="genres-view"></div>
+
+            <h2><label for="arts-input">Add an Art Category</label></h2>
+            <form id="arts-form">
+<!--                <input type="text" id="arts-input"><br>-->
+                 <input type="text" id="arts-input" class="form-control" placeholder="Add Whatever Art-Related Category You Like!" aria-label="Username" aria-describedby="basic-addon1"><br>
+                <input id="add-arts" type="submit" value="Submit" class="btn btn-outline-info">
+            </form>
+                <div class="playPauseButtons">
+                    <button id="playAll" class="btn btn-outline-info">Play All</button>
+                    <button id="pauseAll" class="btn btn-outline-info">Pause All</button>
+                </div>
+            <div id="arts"></div>
+        </div>
+<!--                    <button id="moreResults" class="btn btn-outline-info">More Results</button>-->
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="assets/javascript/app.js"></script>
+</html>
